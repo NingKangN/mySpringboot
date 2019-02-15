@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>springBoot</title>
+    <link rel="stylesheet" th:href="@{plugins/bootstrap-3.3.7-dist/css/bootstrap.css}">
+    <link rel="stylesheet" th:href="@{plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.css}">
+</head>
+<body>
+<div class="col-md-4">
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">访问model</h3>
+    </div>
+    <div class="panel-body">
+    <span th:text="${singlePerson.name}"></span>
+    </div>
+</div>
+</div>
+</body>
+</html>
